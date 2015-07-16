@@ -9,3 +9,5 @@ client = TwilioRestClient(account_sid, auth_token)
 
 message = client.messages.create(body="Pur-pur-pur", to="+380633710303", from_="+12105852895", media_url="http://www.gettyimages.co.uk/gi-resources/images/Homepage/Category-Creative/UK/UK_Creative_462809583.jpg")
 print(message.sid)
+
+print("Pur-pur")
